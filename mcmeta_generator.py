@@ -68,7 +68,7 @@ def version():
     """
     print(version_info)
 
-print("Ketik 'create' untuk membuat pack.mcmeta, 'help' untuk bantuan, atau 'quit' untuk selesai.")
+print("Ketik 'create' untuk membuat pack.mcmeta, 'help' untuk bantuan, dan 'quit' untuk selesai.")
 
 while True:
     action = input("create/help/quit: ").strip().lower()
